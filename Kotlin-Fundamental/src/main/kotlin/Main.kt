@@ -56,5 +56,48 @@ fun main() {
     val nam = "Kotlin"
     println("My name is $nam")
 
+    // If expression akan mengeksekusi sebuah statement atau expression jika hasil evaluasi dari expressions yang diberikan pada blok if bernilai true. Sebaliknya, jika bernilai false maka proses yang ditentukan akan dilewatkan.
+    val openHours = 7
+    val now = 1
+    val office: String
+    office = if (now > 7){
+        "Office already open"
+    }else if (now == openHours){
+        "Wait a minute, Office already open"
+    }else {
+        "office is closed"
+    }
+    println(office)
+
+    // Boolean adalah sebuah tipe data yang hanya memiliki dua nilai, yaitu true dan false. Terdapat 3 (tiga) operator yang dapat digunakan pada Boolean.
+    // Operator AND && kedua nilai harus true agar bisa terpenuhi
+    val officeOpen = 7
+    val officeClosed = 16
+    val sekarang = 1
+
+    val isOpen = if (sekarang >= officeOpen && sekarang <= officeClosed){
+        true
+    } else {
+        false
+    }
+
+    println("Office is open : $isOpen")
+
+    // Operator OR || terpenuhi jika salah satu nilai bernilai true
+    val isClose = if (sekarang <= officeOpen || sekarang >= officeClosed){
+        true
+    }else{
+        false
+    }
+
+        println("Office is closed : $isClose")
+
+    // Operator NOT ! Jika hasil expressions setelah dievaluasi bernilai true, operator NOT akan mengembalikan nilai false.
+    if (!isOpen) {
+        print("Office is closed")
+    } else {
+        print("Office is open")
+    }
+
 
 }
