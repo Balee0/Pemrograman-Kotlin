@@ -30,6 +30,31 @@ fun main() {
 
     val valueA: Int = 10
     val valueB = 20
-    print(valueA + valueB)
+    println(valueA + valueB)
+
+    // Char Untuk mendefinisikan sebuah variabel dengan tipe data Char kita bisa menggunakan tanda kutip tunggal (' ')
+    val character = 'A'
+
+    var vocal = 'A'
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+
+    // String Untung menyipan nilai berupa teks
+    val textString  = "Kotlin"
+
+    // penggunaan string pada indexing
+    val text  = "Dicoding"
+    val firstChar = text[4]
+    println("The 4th character of the $text is $firstChar")
+
+    // Sting Tamplate Sebuah fitur yang memungkinkan kita untuk menyisipkan sebuah variabel ke dalam sebuah String tanpa concatenation (penggabungan objek String menggunakan +)
+    val nam = "Kotlin"
+    println("My name is $nam")
+
 
 }
