@@ -1,3 +1,4 @@
+/*
 package org.example
 
 fun main() {
@@ -11,4 +12,4 @@ fun main() {
     println(someDouble is Double)
 
 
-}
+}*/

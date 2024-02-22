@@ -1,3 +1,4 @@
+/*
 package org.example
 
 fun main(){
@@ -31,7 +32,7 @@ class Animal(){
         }
         set(value){
             println("Fungsi Setter terpanggil")
-            field = value
+//            field = value
         }
 
     // Method
@@ -42,4 +43,4 @@ class Animal(){
     fun sleep(){
         println("$name tidur!")
     }
-}
+}*/
