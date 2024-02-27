@@ -1,6 +1,7 @@
 /*Data Class
 * Data class adalah sebuah kelas yang tidak memiliki logika apapun dan juga tidak memiliki fungsionalitas lain selain menangani data.
 * kompiler akan secara otomatis menghasilkan constructor, toString(), equals(), hashCode(), copy() dan juga fungsi componentN().*/
+/*
 class User(val name: String, val age: Int){
     // bila tidak menggunakan DataClass
     override fun equals(other: Any?): Boolean {
@@ -35,8 +36,10 @@ fun main(){
     val dataUser3 = DataUser("dimas", 24)
     // penerapan fungsi copy() pada DataClass
     val dataUser4 = dataUser2.copy("bale", 21)
-    /*Destructuring Declarration
-    * proses memetakan objek menjadi sebuah variabel. Ini bisa dengan mudah kita lakukan pada data class.*/
+    */
+/*Destructuring Declarration
+    * proses memetakan objek menjadi sebuah variabel. Ini bisa dengan mudah kita lakukan pada data class.*//*
+
     // penerapan fungsi componentN()
     val age = dataUser4.component2()
     val name = dataUser4.component1()
@@ -53,4 +56,4 @@ fun main(){
 
     println(user.equals(user2))
     println(user.equals(user3))
-}
+}*/
